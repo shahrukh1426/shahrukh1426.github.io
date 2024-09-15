@@ -1,9 +1,9 @@
-name: Deploy Angular to GitHub Pages
+name: angular-build-push-to-gh-pages-branch
 
 on:
   push:
     branches:
-      - angular
+      - deployment
 
 jobs:
   build:
